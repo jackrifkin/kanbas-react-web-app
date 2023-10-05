@@ -1,0 +1,193 @@
+@media screen and (max-width: 576px) {
+    .page-content-container {
+       margin-left: 25px;
+    }
+}
+
+.dropdown, .fa-circle-check, .fa-plus, .fa-ban, .fa-link, .fa-bars, .fa-circle-exclamation, .gray-button-icon {
+    display: inline;
+    font-size: .9em;
+}
+
+.inline-icon {
+    display: inline;
+    font-size: .9em;
+}
+
+.gray-button-icon {
+    color: #7C858B;
+    margin-right: 5px;
+}
+
+.fa-circle-check  {
+    color: green;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+.fa-plus {
+    color: white;
+}
+
+.fa-ellipsis-vertical, .fa-grip-vertical {
+    font-size: 1em;
+    color: #7C858B;
+    display: inline;
+}
+
+.button-hr {
+    margin-top: 25px;
+}
+
+.list-group {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.publish-btns {
+    margin-bottom: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.publish-btn {
+    width: 115px;
+}
+
+.list-group-item-secondary {
+    padding: 20px 15px;
+    list-style: none;
+}
+
+.gray-right-margin, .fa-ban {
+    color: #7C858B;
+    margin-right: 10px;
+}
+
+.list-group-item {
+    padding: 10px 15px;
+    text-overflow: ellipsis;
+    border-left: 3px solid green;
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item > div > a > h5 {
+    margin-bottom: 0;
+    color: black;
+}
+
+.list-group-item-content {
+    padding: 10px 0;
+}
+
+.list-group-item-content > a {
+    text-decoration: none;
+}
+
+.list-group-item-content > a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.fa-file-pen {
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: green;
+}
+
+.no-wrap {
+    text-wrap: nowrap;
+}
+
+.ms-auto {
+    padding-left: 5px;
+}
+
+.indent-1 {
+    margin-left: 50px;
+}
+
+.indent-2 {
+    margin-left: 20px;
+}
+
+.fa-link {
+    color: green;
+    margin-left: 10px;
+}
+
+.fa-bars {
+    font-size: 1.5em;
+}
+
+.text-left {
+    text-align: start;
+}
+
+.btn {
+    font-size: .95em;
+}
+
+h6 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.small-hr {
+    margin: 5px 0;
+}
+
+.fa-circle-exclamation {
+    font-size: 1em;
+    color: #D41A2C;
+}
+
+.details {
+    color: #7C858B;
+    font-size: .9em;
+    text-align: left;
+}
+
+.fa-regular.fa-calendar-days {
+    color: #7C858B;
+    font-size: 1.1em;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.badge.rounded-pill {
+    margin: 0;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.breadcrumb {
+    overflow-wrap: break-word;
+}
+
+.published-label {
+    display: inline;
+}
+
+.published-label > .fa-circle-check {
+    margin-right: 0;
+}
+
+.published-label > p {
+    color: green;
+    display: inline;
+    text-align: center;
+}
