@@ -9,9 +9,6 @@ function App() {
   return (
     <div>
       <HashRouter>
-        <HelloWorld />
-        <Kanbas />
-        <Labs />
         <Routes>
           <Route path="/hello" element={<HelloWorld />} />
           <Route path="/Labs/*" element={<Labs />} />
