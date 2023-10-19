@@ -1,0 +1,70 @@
+.text-left {
+    text-align: start !important;
+}
+
+.btn {
+    font-size: .95em;
+}
+
+h6 {
+    margin-top: 20px !important;
+    font-weight: bold;
+}
+
+.small-hr {
+    margin: 5px 0;
+}
+
+.fa-circle-exclamation {
+    font-size: 1em;
+    color: #D41A2C;
+}
+
+.details {
+    color: #7C858B;
+    font-size: .9em;
+    text-align: left;
+}
+
+.fa-regular.fa-calendar-days {
+    color: #7C858B;
+    font-size: 1.1em;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.badge.rounded-pill {
+    margin: 0;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.published-label {
+    display: inline;
+}
+
+.published-label > .fa-circle-check {
+    margin-right: 0;
+}
+
+.published-label > p {
+    color: green;
+    display: inline;
+    text-align: center;
+}
+
+.publish-btns {
+    margin-bottom: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.publish-btn {
+    width: 115px;
+}
+
+.publish-btn svg {
+    margin-bottom: 3px;
+}

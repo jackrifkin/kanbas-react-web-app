@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "L101",
+        "name": "Combustion Lecture",
+        "date": "Sep 18 at 1:35pm",
+        "course": "RS101"
+    },
+    {
+        "_id": "L102",
+        "name": "Propulsion Lecture",
+        "date": "Sep 19 at 1:35pm",
+        "course": "RS101"
+    },
+    {
+        "_id": "L201",
+        "name": "Flow Lecture",
+        "date": "Oct 5 at 5:15pm",
+        "course": "RS102"
+    },
+    {
+        "_id": "L101",
+        "name": "Systems Lecture",
+        "date": "Sep 30 at 12:15pm",
+        "course": "RS103"
+    }
+]

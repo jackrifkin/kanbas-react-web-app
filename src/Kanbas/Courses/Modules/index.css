@@ -1,0 +1,82 @@
+.fa-plus {
+    color: white;
+}
+
+.vertical-ellipsis {
+    font-size: 1.2em;
+    color: #7C858B;
+    display: inline;
+}
+
+.button-hr {
+    margin-top: 25px;
+}
+
+.list-group {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.list-group-item-secondary {
+    padding: 25px 15px;
+    list-style: none;
+    background-color: #F5F5F5;
+    border: 1px solid #DEE2E4;
+    margin-top: 50px;
+}
+
+.pad-bottom {
+    padding-bottom: 5px;
+    font-size: 1.35em;
+}
+
+.gray-right-margin, .fa-ban {
+    color: #7C858B;
+    margin-right: 10px;
+    min-width: 1em;
+}
+
+.list-group-item > div > a > h5 {
+    margin-bottom: 0;
+    color: black;
+}
+
+.list-group-item-content {
+    padding: 10px 0;
+}
+
+.list-group-item-content > a {
+    text-decoration: none;
+}
+
+.list-group-item-content > a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.no-wrap {
+    text-wrap: nowrap;
+}
+
+.ms-auto {
+    padding-left: 5px;
+}
+
+.indent-1 {
+    margin-left: 50px;
+}
+
+.indent-2 {
+    margin-left: 20px;
+}
+
+.fa-link {
+    color: green;
+    margin-left: 10px;
+}
+
+.fa-bars {
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: #D41A2C;
+}
