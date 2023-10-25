@@ -1,0 +1,29 @@
+.list-group-item {
+    padding: 10px 15px !important;
+    text-overflow: ellipsis;
+    border-left: 3px solid green !important;
+    display: flex !important;
+    align-items: center;
+    border-radius: 0 !important;
+}
+
+svg {
+    margin-bottom: 3px;
+}
+
+.gray {
+    color: #7C858B;
+}
+
+.fa-file-pen {
+    font-size: 1.3em;
+    color: green;
+    margin-right: 10px;
+    min-width: 1em;
+}
+
+.fa-circle-check  {
+    color: green;
+    margin-right: 10px;
+    font-size: 1.1em;
+}

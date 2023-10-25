@@ -1,0 +1,57 @@
+h5 {
+    display: inline;
+    margin-left: 10px;
+}
+
+.fa-bars {
+    display: inline;
+    margin-left: 10px;
+}
+
+#profile-pic-icon {
+    float: left;
+    display: block;
+}
+
+.btn-light {
+    color: black;  
+}
+
+.fa-pencil {
+    color: black;
+    display: inline;
+    font-size: .9em;
+    margin-right: 5px;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.fa-link {
+    color: black;
+    font-size: .9em;
+    display: inline;
+}
+
+#name-input, #pronouns-label {
+    padding-right: 50%;
+}
+
+.col-title {
+    text-align: center;
+}
+
+.fa-arrow-right {
+    color: black;
+    font-size: .9em;
+}
+
+.fa-x {
+    font-size: .9em;
+}
+
+.form-button {
+    float: right;
+    margin-right: 10px;
+}

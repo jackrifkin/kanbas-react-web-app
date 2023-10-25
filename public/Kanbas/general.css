@@ -1,0 +1,53 @@
+.page-content-container {
+    margin-left: 105px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.content-container {
+    display: flex;
+    width: 100%;
+}
+
+.content-div {
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.content-nav-container {
+    width: 200px;
+}
+
+.content-nav-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-nav-item {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+}
+
+.content-nav-link {
+    text-decoration: none;
+    color: #D41A2C;
+    text-align: left;
+}
+
+.content-nav-link:hover {
+    text-decoration: underline;
+    color: #D41A2C;
+}
+
+.active-link {
+    border-left: 2px solid black;
+    margin-left: 0;
+    padding-left: 8px;
+}
+
+.active-link > .content-nav-link {
+    color: black;
+}

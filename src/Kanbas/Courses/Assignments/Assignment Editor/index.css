@@ -1,0 +1,68 @@
+.col > .row {
+    margin-top: 30px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.input-box {
+    border: 1px solid #7C858B;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.checkbox-div {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin: 3px
+}
+
+.add-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+    padding: 15px;
+    border: 1px solid #7C858B;
+    border-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+}
+
+.gray-button-icon {
+    color: #7C858B;
+}
+
+@media (min-width: 1200px) { 
+    .form-control {
+        width: 50% !important;
+    }
+
+    .input-box {
+        width: 50% !important;
+    }
+
+    .add-box {
+        width: 50% !important;
+    }
+}
+
+#main-col {
+    margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+    #main-col {
+        margin-right: 0;
+    }
+}
+
+#assign-to-label {
+    margin-top: 0 !important;
+}
+

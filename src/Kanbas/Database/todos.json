@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "TD101",
+        "name": "Grade Propulsion Assignment",
+        "deadline": "Sep 18 at 11:59pm",
+        "course": "RS101"
+    },
+    {
+        "_id": "TD201",
+        "name": "Grade Aerodynamics Quiz",
+        "deadline": "Sep 20 at 11:59pm",
+        "course": "RS102"
+    },
+    {
+        "_id": "TD101",
+        "name": "Grade Orbital Calculations",
+        "deadline": "Sep 30 at 11:59pm",
+        "course": "RS103"
+    }
+]
