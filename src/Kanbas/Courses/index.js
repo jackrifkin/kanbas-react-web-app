@@ -10,7 +10,7 @@ import Assignments from './Assignments';
 import AssignmentEditor from './Assignments/Assignment Editor';
 
 
-function Courses() {
+function Courses({courses}) {
     const { pathname } = useLocation();
     let pathArray = pathname.split('/');
     pathArray = pathArray.splice(3, pathArray.length - 1);
