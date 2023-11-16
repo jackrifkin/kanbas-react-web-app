@@ -58,3 +58,11 @@
 hr {
     margin-right: 15%;
 }
+
+.course-input {
+    margin-bottom: 10px !important;
+}
+
+.wide-course-input-label {
+    width: 75%;
+}
