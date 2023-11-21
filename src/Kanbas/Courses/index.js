@@ -1,5 +1,5 @@
 import './index.css';
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { FaBars, FaGlasses } from 'react-icons/fa';
 import { Breadcrumb, Button } from 'react-bootstrap';
 import { Routes, Route, Navigate } from 'react-router-dom';
@@ -8,14 +8,31 @@ import Modules from './Modules';
 import Home from './Home';
 import Assignments from './Assignments';
 import AssignmentEditor from './Assignments/Assignment Editor';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 
-function Courses({courses}) {
+function Courses() {
     const { pathname } = useLocation();
     let pathArray = pathname.split('/');
     pathArray = pathArray.splice(3, pathArray.length - 1);
     const currentLocation = pathArray[pathArray.length - 1];
     let currentPath = '#/Kanbas/Courses/';
+
+    const {courseId} = useParams();
+    const URL = "http://localhost:4000/api/courses";
+    const [course, setCourse] = useState({});
+    const findCourseById = async (courseId) => {
+        console.log(courseId);
+        const response = await axios.get(
+            `${URL}/${courseId}`
+        );
+        setCourse(response.data);
+    };
+    useEffect(() => {
+        findCourseById(courseId);
+    }, [courseId]);
+
     return (
         <div className='page-content-container'>
             <FaBars className='fa-bars' />
@@ -33,7 +50,7 @@ function Courses({courses}) {
                     );
                 })}
             </Breadcrumb>
-            <Button className='float-end btn btn-light'><FaGlasses style={{marginRight: "5px"}}/>Student View</Button>
+            <Button className='float-end btn btn-light'><FaGlasses style={{ marginRight: "5px" }} />Student View</Button>
             <hr />
             <div className='content-container row'>
                 <CourseNavigation />

@@ -16,20 +16,20 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
                 <div className="d-flex flex-wrap" style={{ "width": "95%", "display": "block" }}>
                     {courses.map((course) => (
                         <div class="card" >
-                            <span class="card-img-top" style={{ "--card-color": course.color, "backgroundColor": "var(--card-color)" }}></span>
+                            <span class="card-img-top" style={{ "backgroundColor": "lightgreen"}}></span>
                             <div class="card-body">
-                                <Link className="card-text" to={`/Kanbas/Courses/${course._id}`}>
+                                <Link className="card-text" to={`/Kanbas/Courses/${course.number}`}>
                                     <span class="card-title" style={{ "--title-color": course.color, "color": "var(--title-color)" }}>
-                                        {course.number} {course._id} {course.name}
+                                        {course.number} {course.name}
                                     </span>
-                                    <br />{course._id}<br />From {course.startDate} to {course.endDate}
+                                    <br />From {course.startDate} to {course.endDate}
                                 </Link>
                                 <br />
-                                <Link to={`/Kanbas/Courses/${course._id}/Assignments`}><PiNotePencilDuotone className="assignment-icon" /></Link>
+                                <Link to={`/Kanbas/Courses/${course.number}/Assignments`}><PiNotePencilDuotone className="assignment-icon" /></Link>
                                 <button className="btn btn-danger float-end" style={{ marginTop: "5px" }}
                                     onClick={(event) => {
                                         event.preventDefault();
-                                        deleteCourse(course._id);
+                                        deleteCourse(course);
                                     }}>
                                     Delete
                                 </button>
@@ -52,18 +52,12 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
                 <label className="wide-course-input-label">Course number:
                     <input value={course.number} className="form-control course-input" placeholder="Course number (ex: ABC1234)"
                         onChange={(e) => setCourse({ ...course, number: e.target.value })} /></label>
-                <label className="wide-course-input-label">Course ID:
-                    <input value={course._id} className="form-control course-input" placeholder="Course ID (ex: AB101)"
-                        onChange={(e) => setCourse({ ...course, _id: e.target.value })} /></label>
                 <label className="wide-course-input-label">Course start date:
                     <input value={course.startDate} className="form-control course-input" type="date"
                         onChange={(e) => setCourse({ ...course, startDate: e.target.value })} /></label>
                 <label className="wide-course-input-label">Course end date:
                     <input value={course.endDate} className="form-control course-input" type="date"
                         onChange={(e) => setCourse({ ...course, endDate: e.target.value })} /></label>
-                <label className="wide-course-input-label">Course color:
-                    <input value={course.color} className="form-control course-input" type="color"
-                        onChange={(e) => setCourse({ ...course, color: e.target.value })} /></label>
                 <br />
                 <Button className="btn btn-light" style={{ marginRight: "5px" }} onClick={updateCourse} >Update Course</Button>
                 <Button className="btn btn-success" onClick={addNewCourse} >Add Course</Button>
